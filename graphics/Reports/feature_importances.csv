@@ -1,0 +1,169 @@
+segment,model,feature,importance
+Complaint_Customers,Logistic Regression,num__Subscription Length,-1.850705116062582
+Complaint_Customers,Logistic Regression,num__Seconds of Use,0.5177467495374597
+Complaint_Customers,Logistic Regression,num__Frequency of use,-2.8423200097599
+Complaint_Customers,Logistic Regression,num__Frequency of SMS,-0.24534357832019055
+Complaint_Customers,Logistic Regression,num__Distinct Called Numbers,0.6508937253333157
+Complaint_Customers,Logistic Regression,num__Age,0.1736307996677801
+Complaint_Customers,Logistic Regression,num__Customer Value,-0.1631422972345785
+Complaint_Customers,Logistic Regression,num__Call Failure,0.996814704858135
+Complaint_Customers,Logistic Regression,bin__Tariff Plan,-0.9526079523073943
+Complaint_Customers,Logistic Regression,bin__Status,-1.5424797468704832
+Complaint_Customers,Logistic Regression,ord__Charge Amount,-1.1685303928300725
+Complaint_Customers,Decision Tree,num__Subscription Length,0.0
+Complaint_Customers,Decision Tree,num__Seconds of Use,0.0
+Complaint_Customers,Decision Tree,num__Frequency of use,0.0
+Complaint_Customers,Decision Tree,num__Frequency of SMS,0.0
+Complaint_Customers,Decision Tree,num__Distinct Called Numbers,0.9812130770478219
+Complaint_Customers,Decision Tree,num__Age,0.0
+Complaint_Customers,Decision Tree,num__Customer Value,0.0
+Complaint_Customers,Decision Tree,num__Call Failure,0.0
+Complaint_Customers,Decision Tree,bin__Tariff Plan,0.0
+Complaint_Customers,Decision Tree,bin__Status,0.0
+Complaint_Customers,Decision Tree,ord__Charge Amount,0.018786922952178153
+Complaint_Customers,Random Forest,Frequency of use,0.33333623311077354
+Complaint_Customers,Random Forest,Seconds of Use,0.2619719231517714
+Complaint_Customers,Random Forest,Distinct Called Numbers,0.11313632444509684
+Complaint_Customers,Random Forest,Subscription Length,0.10130479284006602
+Complaint_Customers,Random Forest,Customer Value,0.0961764049256345
+Complaint_Customers,Random Forest,Call Failure,0.0361833290537997
+Complaint_Customers,Random Forest,Status,0.029927393178896623
+Complaint_Customers,Random Forest,Charge Amount,0.013295939415500972
+Complaint_Customers,Random Forest,Age,0.00826422403351243
+Complaint_Customers,Random Forest,Frequency of SMS,0.006403435844947939
+Complaint_Customers,Random Forest,Tariff Plan,0.0
+No_Complaint_Customers,Logistic Regression,num__Subscription Length,-0.3395520256230732
+No_Complaint_Customers,Logistic Regression,num__Seconds of Use,0.6958522424527348
+No_Complaint_Customers,Logistic Regression,num__Frequency of use,-1.5436490076745877
+No_Complaint_Customers,Logistic Regression,num__Frequency of SMS,-2.4873414331927552
+No_Complaint_Customers,Logistic Regression,num__Distinct Called Numbers,-0.5966154051762842
+No_Complaint_Customers,Logistic Regression,num__Age,-0.08662546009639431
+No_Complaint_Customers,Logistic Regression,num__Customer Value,0.5325105306359679
+No_Complaint_Customers,Logistic Regression,num__Call Failure,1.142827300999253
+No_Complaint_Customers,Logistic Regression,bin__Tariff Plan,-1.2477472875501265
+No_Complaint_Customers,Logistic Regression,bin__Status,1.740589359600594
+No_Complaint_Customers,Logistic Regression,ord__Charge Amount,-0.7034578130469162
+No_Complaint_Customers,Decision Tree,num__Subscription Length,0.01770732631756742
+No_Complaint_Customers,Decision Tree,num__Seconds of Use,0.20310434244092146
+No_Complaint_Customers,Decision Tree,num__Frequency of use,0.0
+No_Complaint_Customers,Decision Tree,num__Frequency of SMS,0.0019266292094984798
+No_Complaint_Customers,Decision Tree,num__Distinct Called Numbers,0.0
+No_Complaint_Customers,Decision Tree,num__Age,0.0
+No_Complaint_Customers,Decision Tree,num__Customer Value,0.01696703081606676
+No_Complaint_Customers,Decision Tree,num__Call Failure,0.0
+No_Complaint_Customers,Decision Tree,bin__Tariff Plan,0.6020019624723028
+No_Complaint_Customers,Decision Tree,bin__Status,0.0
+No_Complaint_Customers,Decision Tree,ord__Charge Amount,0.15829270874364307
+No_Complaint_Customers,Random Forest,Status,0.2684415434106475
+No_Complaint_Customers,Random Forest,Customer Value,0.1918682726512767
+No_Complaint_Customers,Random Forest,Seconds of Use,0.17076840526282752
+No_Complaint_Customers,Random Forest,Frequency of use,0.13507002734612178
+No_Complaint_Customers,Random Forest,Frequency of SMS,0.0703193573780619
+No_Complaint_Customers,Random Forest,Distinct Called Numbers,0.05434755628202482
+No_Complaint_Customers,Random Forest,Subscription Length,0.04999821488996869
+No_Complaint_Customers,Random Forest,Charge Amount,0.02335101409213866
+No_Complaint_Customers,Random Forest,Age,0.01835266885551882
+No_Complaint_Customers,Random Forest,Call Failure,0.016594728962185234
+No_Complaint_Customers,Random Forest,Tariff Plan,0.0008882108692283617
+Active_Customers,Logistic Regression,num__Subscription Length,-0.43591152248150855
+Active_Customers,Logistic Regression,num__Seconds of Use,-0.7540398883803767
+Active_Customers,Logistic Regression,num__Frequency of use,0.2444019894977739
+Active_Customers,Logistic Regression,num__Frequency of SMS,-1.4665259939182613
+Active_Customers,Logistic Regression,num__Distinct Called Numbers,-1.9739735556238722
+Active_Customers,Logistic Regression,num__Age,-0.588500333639642
+Active_Customers,Logistic Regression,num__Customer Value,-0.23618298469644797
+Active_Customers,Logistic Regression,num__Call Failure,1.864018573406568
+Active_Customers,Logistic Regression,bin__Complaints,5.095803497258275
+Active_Customers,Logistic Regression,bin__Tariff Plan,-1.0601122627061699
+Active_Customers,Logistic Regression,ord__Charge Amount,-1.136208841209972
+Active_Customers,Decision Tree,num__Subscription Length,0.0
+Active_Customers,Decision Tree,num__Seconds of Use,0.48197130866464966
+Active_Customers,Decision Tree,num__Frequency of use,0.1454796787746362
+Active_Customers,Decision Tree,num__Frequency of SMS,0.0
+Active_Customers,Decision Tree,num__Distinct Called Numbers,0.13674030257358163
+Active_Customers,Decision Tree,num__Age,0.0
+Active_Customers,Decision Tree,num__Customer Value,0.0
+Active_Customers,Decision Tree,num__Call Failure,0.0
+Active_Customers,Decision Tree,bin__Complaints,0.0
+Active_Customers,Decision Tree,bin__Tariff Plan,0.0
+Active_Customers,Decision Tree,ord__Charge Amount,0.23580870998713246
+Active_Customers,Random Forest,Distinct Called Numbers,0.19823150398680892
+Active_Customers,Random Forest,Seconds of Use,0.19405126497968825
+Active_Customers,Random Forest,Complaints,0.1619544471291704
+Active_Customers,Random Forest,Customer Value,0.14452331259144385
+Active_Customers,Random Forest,Subscription Length,0.08982166205682199
+Active_Customers,Random Forest,Frequency of SMS,0.08849144842192672
+Active_Customers,Random Forest,Frequency of use,0.07325058233008981
+Active_Customers,Random Forest,Age,0.0249023198172004
+Active_Customers,Random Forest,Call Failure,0.01772142836588248
+Active_Customers,Random Forest,Charge Amount,0.0036463803735489984
+Active_Customers,Random Forest,Tariff Plan,0.0034056499474182734
+Inactive_Customers,Logistic Regression,num__Subscription Length,0.28508348609939077
+Inactive_Customers,Logistic Regression,num__Seconds of Use,0.7089763595487263
+Inactive_Customers,Logistic Regression,num__Frequency of use,-2.7136713039646847
+Inactive_Customers,Logistic Regression,num__Frequency of SMS,-0.5894724126637457
+Inactive_Customers,Logistic Regression,num__Distinct Called Numbers,1.1766962557012837
+Inactive_Customers,Logistic Regression,num__Age,0.35986610815765147
+Inactive_Customers,Logistic Regression,num__Customer Value,-0.18534086368031696
+Inactive_Customers,Logistic Regression,num__Call Failure,1.495639519706443
+Inactive_Customers,Logistic Regression,bin__Complaints,2.7766049855697092
+Inactive_Customers,Logistic Regression,bin__Tariff Plan,0.03420820500817991
+Inactive_Customers,Logistic Regression,ord__Charge Amount,0.0
+Inactive_Customers,Decision Tree,num__Subscription Length,0.0
+Inactive_Customers,Decision Tree,num__Seconds of Use,0.5203838341898118
+Inactive_Customers,Decision Tree,num__Frequency of use,0.1459820464935968
+Inactive_Customers,Decision Tree,num__Frequency of SMS,0.0
+Inactive_Customers,Decision Tree,num__Distinct Called Numbers,0.17502066345866957
+Inactive_Customers,Decision Tree,num__Age,0.04480358197539491
+Inactive_Customers,Decision Tree,num__Customer Value,0.0
+Inactive_Customers,Decision Tree,num__Call Failure,0.07691948708703511
+Inactive_Customers,Decision Tree,bin__Complaints,0.0
+Inactive_Customers,Decision Tree,bin__Tariff Plan,0.036890386795491746
+Inactive_Customers,Decision Tree,ord__Charge Amount,0.0
+Inactive_Customers,Random Forest,Complaints,0.2862942098799222
+Inactive_Customers,Random Forest,Seconds of Use,0.15873862531379332
+Inactive_Customers,Random Forest,Distinct Called Numbers,0.13914753004998598
+Inactive_Customers,Random Forest,Subscription Length,0.12353806219134053
+Inactive_Customers,Random Forest,Call Failure,0.09516214190809703
+Inactive_Customers,Random Forest,Frequency of use,0.08876812133025279
+Inactive_Customers,Random Forest,Customer Value,0.06229669980836349
+Inactive_Customers,Random Forest,Age,0.0296813681430248
+Inactive_Customers,Random Forest,Frequency of SMS,0.016373241375219907
+Inactive_Customers,Random Forest,Tariff Plan,0.0
+Inactive_Customers,Random Forest,Charge Amount,0.0
+All_Customers,Logistic Regression,num__Subscription Length,-0.345071503023987
+All_Customers,Logistic Regression,num__Seconds of Use,0.4981117599571894
+All_Customers,Logistic Regression,num__Frequency of use,-1.5945881314115704
+All_Customers,Logistic Regression,num__Frequency of SMS,-1.5897524984019176
+All_Customers,Logistic Regression,num__Distinct Called Numbers,-0.5680742025318031
+All_Customers,Logistic Regression,num__Age,-0.08988945876000641
+All_Customers,Logistic Regression,num__Customer Value,0.20615697587165863
+All_Customers,Logistic Regression,num__Call Failure,0.9950903729014157
+All_Customers,Logistic Regression,bin__Complaints,3.8595600115511184
+All_Customers,Logistic Regression,bin__Tariff Plan,0.061250752796003984
+All_Customers,Logistic Regression,bin__Status,1.467931577112117
+All_Customers,Logistic Regression,ord__Charge Amount,-0.7129410773116758
+All_Customers,Decision Tree,num__Subscription Length,0.0
+All_Customers,Decision Tree,num__Seconds of Use,0.2720865289449555
+All_Customers,Decision Tree,num__Frequency of use,0.08150737815252694
+All_Customers,Decision Tree,num__Frequency of SMS,0.0
+All_Customers,Decision Tree,num__Distinct Called Numbers,0.009600842798649376
+All_Customers,Decision Tree,num__Age,0.08858673505112909
+All_Customers,Decision Tree,num__Customer Value,0.014124300888085715
+All_Customers,Decision Tree,num__Call Failure,0.0
+All_Customers,Decision Tree,bin__Complaints,0.0
+All_Customers,Decision Tree,bin__Tariff Plan,0.5340942141646534
+All_Customers,Decision Tree,bin__Status,0.0
+All_Customers,Decision Tree,ord__Charge Amount,0.0
+All_Customers,Random Forest,Status,0.27430964185640333
+All_Customers,Random Forest,Complaints,0.19027633241323808
+All_Customers,Random Forest,Seconds of Use,0.11577185082390631
+All_Customers,Random Forest,Customer Value,0.10955922651605948
+All_Customers,Random Forest,Frequency of use,0.10936043038921701
+All_Customers,Random Forest,Distinct Called Numbers,0.07365390317942054
+All_Customers,Random Forest,Frequency of SMS,0.05094608145776039
+All_Customers,Random Forest,Subscription Length,0.04042696503600476
+All_Customers,Random Forest,Age,0.014412859482590657
+All_Customers,Random Forest,Charge Amount,0.012118935582948298
+All_Customers,Random Forest,Call Failure,0.008155670949330977
+All_Customers,Random Forest,Tariff Plan,0.001008102313120082
