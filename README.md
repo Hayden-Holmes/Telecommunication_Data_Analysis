@@ -59,7 +59,7 @@ The models were applied across several customer groups: Active customers, Inacti
 ## Deliverables to TC
 - A Tablue Dashboard to assist marketers
 - **Dashboard**
-![Tablue Dashboard](graphics\Reports\Tablue_Dashboard.png)
+![Tablue Dashboard](graphics/Reports/Tablue_Dashboard.png)
 - A **multi-page PDF dashboard** summarizing model performance, ROC-AUC comparisons, and feature importance by segment:  
   [Download Comparison Report](graphics/Reports/comparison_report.pdf)  
 - Individual plots for quick reference, including heatmaps of model performance and segment-level feature importance rankings.  
@@ -81,4 +81,5 @@ The models were applied across several customer groups: Active customers, Inacti
 ├── main.py # Creates model, records metrics, and creates graphics
 ├── README.md # Project overview & insights
 └── requirements.txt 
+
 ```
