@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Hayden Holmes — Personal Website</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Sticky nav -->
+  <header class="nav">
+    <div class="wrap">
+      <a class="brand" href="#about">Hayden</a>
+      <nav aria-label="Primary">
+        <a class="nav-link" href="#about">Home</a>
+        <a class="nav-link" href="#projects">Projects</a>
+        <a class="nav-link" href="#resume">Resume</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- About Me (landing) -->
+  <section id="about" class="section">
+    <div class="container about-grid">
+      <div class="pfp-wrap">
+        <img class="pfp" src="img/headshot.jpg" alt="Portrait of Hayden Holmes" />
+      </div>
+
+      <div class="about-panel" role="region" aria-labelledby="about-title">
+        <h1 id="about-title" class="about-title">About Me</h1>
+        <div class="divider" aria-hidden="true"></div>
+          <p>
+            I’m a Computer Science student at Indiana University, specializing in Artificial Intelligence and minoring in Business.
+            My professional experience includes an internship with Capgemini on the McDonald’s Account, where I contributed to
+            client-facing deliverables and strategic initiatives. I’m currently building projects that apply data analysis
+            technologies to strengthen my technical and analytical skills.
+          </p>
+
+          <p>
+            I’m eager to pursue opportunities in technical data analyst roles, with the long-term goal of moving into
+            client-facing positions where I can bridge the gap between business stakeholders and technology leaders.
+            I’m a fast learner with a strong work ethic and I thrive at the intersection of technology and business.
+          </p>
+
+          <h3>Fun Facts</h3>
+          <ul>
+            <li>I enjoy fishing, hiking, and skiing.</li>
+            <li>Indiana native and lifelong supporter of the Colts, Pacers, and Hoosiers (basketball & football).</li>
+  </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="section alt">
+    <div class="container">
+      <h2 class="section-title">Projects</h2>
+
+      <article class="project-row">
+        <img class="project-image" src="img/Churn_Predictions_img.png" alt="Screenshot of Telecom Churn Modeling" />
+        <div class="project-details">
+          <h3>Telecom Churn Modeling</h3>
+          <p>Machine learning models (Logistic Regression, Decision Tree, Random Forest) applied to telecom customer data to predict churn and identify segment-specific retention drivers.</p>
+          <p class="small">Python • Scikit-learn • Matplotlib • Pandas • NumPy • Tableau</p>
+          <p><a class="btn" href="https://github.com/Hayden-Holmes/Telecommunication_Data_Analysis">View on GitHub</a></p>
+        </div>
+      </article>
+
+      <article class="project-row">
+        <img class="project-image" src="img/proj-2.jpg" alt="Screenshot of Data Cleanup" />
+        <div class="project-details">
+          <h3>Data Pipeline Practice</h3>
+          <p>Clean CSV and JSON data | Transform and load into AWS S3</p>
+          <p><a class="btn" href="#" aria-disabled="true">In progress</a></p>
+          <p class="small">Python • pandas</p>
+        </div>
+      </article>
+
+      <article class="project-row">
+        <img class="project-image" src="img/proj-3.jpg" alt="Screenshot placeholder" />
+        <div class="project-details">
+          <h3>Coming soon…</h3>
+          <p>More AWS experiments as I learn.</p>
+          <p><a class="btn" href="#" aria-disabled="true">In progress</a></p>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- Resume -->
+  <section id="resume" class="section">
+    <div class="container">
+      <h2 class="section-title">Resume</h2>
+
+      <p><a class="btn" href="assets/Hayden_Holmes_Resume.pdf" download>Download PDF</a></p>
+
+      <div class="pdf-frame">
+        <embed src="assets/Hayden_Holmes_Resume.pdf#zoom=FitH" type="application/pdf" />
+      </div>
+
+      <p class="small">
+        If the preview doesn’t load in your browser, <a href="assets/Hayden_Holmes_Resume.pdf">open the PDF</a>.
+      </p>
+    </div>
+  </section>
+
+  <footer>
+    <small>© <span id="year"></span> Hayden Holmes</small>
+  </footer>
+
+  <!-- tiny JS: active link on scroll & current year -->
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    const links = document.querySelectorAll('.nav-link');
+    const sections = [...document.querySelectorAll('section.section')];
+
+    const obs = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          links.forEach(a => a.classList.toggle(
+            'active', a.getAttribute('href') === '#' + entry.target.id
+          ));
+        }
+      });
+    }, { rootMargin: '-50% 0px -50% 0px', threshold: 0.01 });
+
+    sections.forEach(s => obs.observe(s));
+  </script>
+</body>
+</html>
